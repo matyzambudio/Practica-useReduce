@@ -55,7 +55,7 @@ export default function Reloj() {
   return (
     <div style={{ fontSize: "25px" }}>
       <div>
-        <input  type="number" value={zero}  onChange={valor} /> {zero}
+        <input  type="number" value={zero}  onChange={valor} /> 
       </div>
       <div className="caja">
         <h1 className={((stado.m <= mes && stado.a <= 2024 ||
